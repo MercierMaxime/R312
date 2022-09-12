@@ -51,6 +51,8 @@ const maison6 = {
   price: "4550",
   nbrSDB: 3,
 };
+
+const listemaisons = [maison, maison2, maison3, maison4, maison5, maison6];
 </script>
       
       <template >
