@@ -1,7 +1,7 @@
-import IndexView from '../views/index.vue'
-import SimpleView from '../views/simple.vue'
-import ListeView from '../views/liste.vue'
-import AppView from '../views/App.vue'
+import IndexView from '../pages/index.vue'
+import SimpleView from '../pages/simple.vue'
+import ListeView from '../pages/liste.vue'
+import AppView from '../App.vue'
 
 
 
