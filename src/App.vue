@@ -6,17 +6,17 @@
           lien vers           
           <code class="font-mono">/src/App.vue</code>         
           </router-link> 
-
+              <br>
           <router-link class="text-red-600 underline" to="/index">           
           lien vers           
           <code class="font-mono">/src/pages/index.vue</code>         
           </router-link>  
-
+          <br>
           <router-link class="text-red-600 underline" to="/liste">           
           lien vers           
           <code class="font-mono">/src/pages/liste.vue</code>  
           </router-link> 
-          
+          <br>
           <router-link class="text-red-600 underline" to="/simple">           
           lien vers           
           <code class="font-mono">/src/pages/simple.vue</code>         
@@ -30,7 +30,7 @@
 </template>  
              
 <script setup lang="ts">
-import { value Bars3Icon } from "@heroicons/vue/20/solid";
+import { Bars3Icon } from "@heroicons/vue/20/solid";
 </script>
   
   
