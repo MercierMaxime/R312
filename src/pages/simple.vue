@@ -65,13 +65,5 @@ const listemaisons = [ {maison}, {maison2}, {maison3}]
           <card class="p-8" v-bind="maison" />
 
           <card class="p-8" v-bind="maison2" />
-
-          <card class="p-8" v-bind="maison3" />
-
-          <card class="p-8" v-bind="maison4" />
-
-          <card class="p-8" v-bind="maison5" />
-
-          <card class="p-8" v-bind="maison6" />
         </div>
       </template>
