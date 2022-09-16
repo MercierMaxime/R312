@@ -20,7 +20,12 @@
           <router-link class="text-red-600 underline" to="/simple">           
           lien vers           
           <code class="font-mono">/src/pages/simple.vue</code>         
-          </router-link> 
+          </router-link>
+          <br>
+          <router-link class="text-red-600 underline" to="/new">           
+          lien vers           
+          <code class="font-mono">/src/pages/edit/new.vue</code>         
+          </router-link>  
               
            </li>     
            </ul>  
