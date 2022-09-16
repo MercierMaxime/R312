@@ -3,7 +3,5 @@
 </script>
 
 <template>
-    <main>
         <FicheOffreMaison/>
-    </main>
 </template>
