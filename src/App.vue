@@ -17,6 +17,11 @@
           <code class="font-mono">/src/pages/liste.vue</code>  
           </router-link> 
           <br>
+          <router-link class="text-red-600 underline" to="/fetch">           
+          lien vers           
+          <code class="font-mono">/src/pages/listeFetch.vue</code>  
+          </router-link> 
+          <br>
           <router-link class="text-red-600 underline" to="/simple">           
           lien vers           
           <code class="font-mono">/src/pages/simple.vue</code>         
