@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import card from "../components/Card.vue";
 import headercard from "../components/Header.vue";
-import footercard from "../components/Footer.vue";
 
 const maisons = [
   {

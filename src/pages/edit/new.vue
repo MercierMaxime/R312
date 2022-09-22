@@ -1,5 +1,5 @@
 <script setup lang="ts">
-    import FicheOffreMaison from "../../components/FormulaireOffreMaison.vue"
+    import FicheOffreMaison from "../../components/FicheOffreMaison.vue"
 </script>
 
 <template>
