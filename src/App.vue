@@ -17,7 +17,7 @@
           <code class="font-mono">/src/pages/liste.vue</code>  
           </router-link> 
           <br>
-          <router-link class="text-red-600 underline" to="/fetch">           
+          <router-link class="text-red-600 underline" to="/listeFetch">           
           lien vers           
           <code class="font-mono">/src/pages/listeFetch.vue</code>  
           </router-link> 
@@ -36,7 +36,9 @@
            </ul>  
             </nav>    
             <!-- Affiche les pages -->  
-             <router-view class="m-2 border-2 p-2" /> 
+            <suspense> 
+                <router-view class="m-2 border-2 p-2" /> 
+            </suspense> 
 </template>  
              
 <script setup lang="ts">

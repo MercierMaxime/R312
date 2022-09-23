@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import card from "../components/Card.vue";
+import card from "../components/card.vue";
 import headercard from "../components/Header.vue";
 
 const maison = {
