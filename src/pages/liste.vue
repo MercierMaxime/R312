@@ -12,6 +12,7 @@ const maisons = [
   },
   {
     favoris: "true",
+    price:"3436",
     image: "/images-maison/maison1.jpg",
     titre: "Beverly Springfield",
     lieu: "2821 Lake Sevilla Palm Harbor TX",

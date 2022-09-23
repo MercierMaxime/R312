@@ -2,10 +2,10 @@
   <figure>
     <img class="rounded-t-lg" :src="image" alt="" />
     <figcaption class="relative flex flex-col rounded-b-lg border-2 border-t-0 px-5 py-7">
-      <h3 class="text-2xl text-gray-900">{{ titre }}</h3>
-      <address class="not-italic text-gray-500">{{ lieu }}</address>
+      <h3 class="text-2xl text-gray-900">{{ nomMaison }}</h3>
+      <address class="not-italic text-gray-500">{{ adresse }}</address>
       <div class="order-first flex items-center">
-        <div class="text-2xl text-indigo-500">${{ price.toLocaleString("en-US") }}</div>
+        <div class="text-2xl text-indigo-500">${{ prix }}</div>
         <div class="text-gray-500">/months</div>
       </div>
       <hr class="my-2 border-t-2 border-indigo-100" />
@@ -21,29 +21,20 @@
   </figure>
 </template>
 
-<script>
+<script setup lang="ts">
 import bed from "./icones/Bed.vue";
 import bath from "./icones/Bath.vue";
 import dimension from "./icones/Dimension.vue";
 import heart from "./icones/Heart.vue";
-export default {
-  props: {
-    price: {
-      type: Number,
-      default: 2700,
-    },
-    favoris: {
-      type: Boolean,
-      default: false,
-    },
-    titre: {
-      type: String,
-      required: true,
-    },
+  defineProps({
+    prix:Number,
+    nomMaison: String,
     image: String,
+    nbrChambres: Number,
     nbrSDB: Number,
-    lieu: String,
-  },
-  components: { bed, bath, dimension, heart },
-};
+    adresse:String,
+    id:String,
+    favoris: Boolean,
+  })
+
 </script>

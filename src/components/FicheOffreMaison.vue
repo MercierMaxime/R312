@@ -1,6 +1,6 @@
 <script setup lang="ts">
     import {ref} from "@vue/reactivity";
-    import card from "./Card.vue";
+    import card from "./card.vue";
     const maison = ref({});
 </script>
 
@@ -16,7 +16,7 @@
             :config="{classes: {input: 'p-1 rounded border-gray-100 shadow-lg border hover:bg-indigo-300', label:'text-indigo-200'}}">
                 <FormKit name="nom" label="nom"/>
                 <FormKit name="prix" label="prix" type="number"/>
-                <FormKit name="favori" label="mettre en valeur" type="checkbox"
+                <FormKit name="favoris" label="mettre en valeur" type="checkbox"
                 :submit-attrs="{ classes: {input: 'bg-red-100 p-3 rounded'}}"/>
             </FormKit>
         </div>
