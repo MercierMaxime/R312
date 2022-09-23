@@ -39,13 +39,6 @@ const maisons = [
     price: "4800",
     nbrSDB: 3,
   },
-  {
-    image: "/images-maison/maison3.jpg",
-    titre: "Faulkner Ave",
-    lieu: "909 Woodland St, Michigan, IN",
-    price: "4550",
-    nbrSDB: 3,
-  },
 ];
 </script>
           
