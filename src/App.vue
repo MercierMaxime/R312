@@ -7,7 +7,7 @@
           <code class="font-mono">/src/App.vue</code>         
           </router-link> 
               <br>
-          <router-link class="text-red-600 underline" to="/index">           
+          <router-link class="text-red-600 underline" to="/quartier/index">           
           lien vers           
           <code class="font-mono">/src/pages/index.vue</code>         
           </router-link>  
