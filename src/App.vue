@@ -5,11 +5,6 @@
           <router-link class="text-red-600 underline" to="/">           
           lien vers           
           <code class="font-mono">/src/App.vue</code>         
-          </router-link> 
-              <br>
-          <router-link class="text-red-600 underline" to="/quartier/index">           
-          lien vers           
-          <code class="font-mono">/src/pages/index.vue</code>         
           </router-link>  
           <br>
           <router-link class="text-red-600 underline" to="/liste">           
@@ -35,7 +30,12 @@
           <router-link class="text-red-600 underline" to="/edit/new">           
           lien vers           
           <code class="font-mono">/src/pages/edit/new.vue</code>         
-          </router-link>  
+          </router-link>
+          <br>
+          <router-link class="text-red-600 underline" to="/quartier/index">           
+          lien vers           
+          <code class="font-mono">/src/pages/quartier/index.vue</code>         
+          </router-link> 
               
            </li>     
            </ul>  

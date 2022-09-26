@@ -1,5 +1,7 @@
+<script setup lang="ts">
+  
+</script>
+
 <template>
-  <section>
     <h1 class="text-xl">Page Index</h1>
-  </section>
 </template>
