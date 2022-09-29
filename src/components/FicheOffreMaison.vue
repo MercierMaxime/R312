@@ -8,13 +8,16 @@
     <div>
         <div class="p-2">
             <h2 class="text-2xl">Résultat (Prévisualisation)</h2>
-            <card  v-bind="maison"/>
+            <card v-bind="maison"/>
         </div>
         <div class="p-2">
             <FormKit type="form" v-model="maison"
             :submit-attrs="{ classes: { input: 'bg-red-300 p-1 rounded' } }" 
             :config="{classes: {input: 'p-1 rounded border-gray-100 shadow-lg border hover:bg-indigo-300', label:'text-indigo-200'}}">
-                <FormKit name="nom" label="nom"/>
+                <FormKit name="nom" label="nom" />
+                <FormKit name="lieu" label="adresse" />
+                <FormKit name="nbrchambres" label="Nombre de chambres" type="number" />
+                <FormKit name="nbrSDB" label="Nombre de salles de bain" type="number" />
                 <FormKit name="prix" label="prix" type="number"/>
                 <FormKit name="favoris" label="mettre en valeur" type="checkbox"
                 :submit-attrs="{ classes: {input: 'bg-red-100 p-3 rounded'}}"/>
