@@ -14,9 +14,9 @@
             <FormKit type="form" v-model="maison"
             :submit-attrs="{ classes: { input: 'bg-red-300 p-1 rounded' } }" 
             :config="{classes: {input: 'p-1 rounded border-gray-100 shadow-lg border hover:bg-indigo-300', label:'text-indigo-200'}}">
-                <FormKit name="nom" label="nom" />
-                <FormKit name="lieu" label="adresse" />
-                <FormKit name="nbrchambres" label="Nombre de chambres" type="number" />
+                <FormKit name="nomMaison" label="nom" />
+                <FormKit name="adresse" label="adresse" />
+                <FormKit name="nbrChambres" label="Nombre de chambres" type="number" />
                 <FormKit name="nbrSDB" label="Nombre de salles de bain" type="number" />
                 <FormKit name="prix" label="prix" type="number"/>
                 <FormKit name="favoris" label="mettre en valeur" type="checkbox"

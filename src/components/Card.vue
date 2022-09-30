@@ -10,7 +10,7 @@
       </div>
       <hr class="my-2 border-t-2 border-indigo-100" />
       <div class="flex justify-between text-sm">
-        <div><bed class="inline-block align-top" />4 Beds</div>
+        <div><bed class="inline-block align-top" />{{ nbrChambres }} Rooms</div>
         <div><bath class="inline-block align-top" /> {{ nbrSDB }} Bathrooms</div>
         <div><dimension class="inline-block align-top" /> 6x7.5 m²</div>
       </div>
@@ -26,6 +26,7 @@ import bed from "./icones/Bed.vue";
 import bath from "./icones/Bath.vue";
 import dimension from "./icones/Dimension.vue";
 import heart from "./icones/Heart.vue";
+
   defineProps({
     prix:Number,
     nomMaison: String,
@@ -36,5 +37,4 @@ import heart from "./icones/Heart.vue";
     id:String,
     favoris: Boolean,
   })
-
 </script>

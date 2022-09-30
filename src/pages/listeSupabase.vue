@@ -1,6 +1,6 @@
 <script setup lang="ts">
     import { supabase } from "../supabase";
-    import card from "../components/card.vue"
+    import card from "@/components/card.vue"
 
     console.log("supabase :", supabase); // pour vérifier et "garder" supabase dans le code
 
@@ -14,8 +14,6 @@
 <template>
     <div class="p-2">
         <h1 class="text-xl">Page Supabase</h1>
-        <div v-for="maison in Maison" :key="maison.nomMaison">
-            <Card class="w-1/2" v-bind="maison"/>
-        </div>
+        <card v-for="maison in Maison" :key="maison.nomMaison" class="w-1/2" v-bind="maison"/>
     </div>
 </template>
