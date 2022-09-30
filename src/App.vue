@@ -32,9 +32,9 @@
           <code class="font-mono">/src/pages/edit/new.vue</code>         
           </router-link>
           <br>
-          <router-link class="text-red-600 underline" to="/quartier/index">           
+          <router-link class="text-red-600 underline" to="/quartier/quartier">           
           lien vers           
-          <code class="font-mono">/src/pages/quartier/index.vue</code>         
+          <code class="font-mono">/src/pages/quartier/quartier.vue</code>         
           </router-link> 
               
            </li>     

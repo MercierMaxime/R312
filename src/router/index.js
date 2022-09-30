@@ -3,7 +3,7 @@ import ListeView from '../pages/liste.vue'
 import ListeSupabaseView from '../pages/listeSupabase.vue'
 import AppView from '../App.vue'
 import NewView from '../pages/edit/new.vue'
-import IndexView from '../pages/quartier/index.vue'
+import QuartierView from '../pages/quartier/quartier.vue'
 
 
 
@@ -15,7 +15,7 @@ const router = createRouter({
         { path: '/listeSupabase', name: 'ListeSupabaseView', component: ListeSupabaseView },
         { path: '/simple', name: 'SimpleView', component: SimpleView },
         { path: '/edit/new', name: 'NewView', component: NewView },
-        { path: '/quartier/index', name: 'IndexView', component: IndexView },
+        { path: '/quartier/quartier', name: 'QuartierView', component: QuartierView },
     ]
 })
 
