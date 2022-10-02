@@ -36,6 +36,11 @@
           lien vers           
           <code class="font-mono">/src/pages/quartier/quartier.vue</code>         
           </router-link> 
+          <br>
+          <router-link class="text-red-600 underline" to="/commune/commune">           
+          lien vers           
+          <code class="font-mono">/src/pages/commune/commune.vue</code>         
+          </router-link> 
               
            </li>     
            </ul>  
