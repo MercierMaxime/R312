@@ -39,7 +39,6 @@
             :submit-attrs="{ classes: { input: 'bg-red-300 p-1 rounded' } }" 
             :config="{classes: {input: 'p-1 rounded border-gray-100 shadow-lg border hover:bg-indigo-300', label:'text-indigo-200'}}">
                 <FormKit name="libelle_quartier" label="nom quartier" />
-                <FormKit name="code_quartier" label="code quartier" :options="OptionsQuartier" />
             </FormKit>
         </div>
     </div>
